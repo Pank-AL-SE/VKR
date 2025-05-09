@@ -322,3 +322,55 @@
 2025-05-09 22:56:45 - __main__ - INFO - Received shutdown signal
 2025-05-09 22:56:45 - __main__ - INFO - Stopping bot
 2025-05-09 22:56:45 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
+2025-05-09 23:05:12 - __main__ - INFO - Initializing bot application
+2025-05-09 23:05:13 - __main__ - DEBUG - Setting up conversation handlers
+2025-05-09 23:05:13 - __main__ - DEBUG - Handlers setup completed
+2025-05-09 23:05:13 - __main__ - INFO - Bot initialized successfully
+2025-05-09 23:05:13 - __main__ - INFO - Starting bot
+2025-05-09 23:05:13 - __main__ - INFO - Bot started successfully
+2025-05-09 23:05:32 - __main__ - INFO - Stopping bot
+2025-05-09 23:05:32 - __main__ - INFO - Bot stopped successfully
+2025-05-09 23:05:32 - __main__ - INFO - Received shutdown signal
+2025-05-09 23:05:32 - __main__ - INFO - Stopping bot
+2025-05-09 23:05:32 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
+2025-05-09 23:06:21 - __main__ - INFO - Initializing bot application
+2025-05-09 23:06:21 - __main__ - DEBUG - Setting up conversation handlers
+2025-05-09 23:06:21 - __main__ - DEBUG - Handlers setup completed
+2025-05-09 23:06:21 - __main__ - INFO - Bot initialized successfully
+2025-05-09 23:06:21 - __main__ - INFO - Starting bot
+2025-05-09 23:06:26 - __main__ - CRITICAL - Bot crashed: Timed out
+2025-05-09 23:06:26 - __main__ - INFO - Stopping bot
+2025-05-09 23:06:26 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
+2025-05-09 23:06:26 - __main__ - CRITICAL - Unexpected error: This Updater is not running!
+2025-05-09 23:06:26 - __main__ - INFO - Stopping bot
+2025-05-09 23:06:26 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
+2025-05-09 23:07:17 - __main__ - INFO - Initializing bot application
+2025-05-09 23:07:17 - __main__ - DEBUG - Setting up conversation handlers
+2025-05-09 23:07:17 - __main__ - DEBUG - Handlers setup completed
+2025-05-09 23:07:17 - __main__ - INFO - Bot initialized successfully
+2025-05-09 23:07:17 - __main__ - INFO - Starting bot
+2025-05-09 23:07:17 - __main__ - INFO - Bot started successfully
+2025-05-09 23:07:18 - handlers.base - INFO - User 1424585854 started interaction
+2025-05-09 23:07:18 - handlers.base - ERROR - Start command error for user 1424585854: Forbidden: bot was blocked by the user
+2025-05-09 23:07:18 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 23:07:19 - handlers.route - ERROR - Start route error for user 1424585854: Forbidden: bot was blocked by the user
+2025-05-09 23:07:19 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 23:07:19 - handlers.route - ERROR - Start route error for user 1424585854: Forbidden: bot was blocked by the user
+2025-05-09 23:07:29 - handlers.base - INFO - User 1424585854 started interaction
+2025-05-09 23:07:52 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 23:08:03 - handlers.route - INFO - User 1424585854 confirmed route
+2025-05-09 23:08:14 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 23:08:27 - handlers.route - INFO - User 1424585854 skipped reason for unfinished points
+2025-05-09 23:08:35 - handlers.route - INFO - User 1424585854 finished route. Fuel: 1, Odometer: 4. Unfinished: 2
+2025-05-09 23:08:40 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 23:08:43 - handlers.route - INFO - User 1424585854 confirmed route
+2025-05-09 23:08:47 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 23:08:48 - handlers.route - INFO - User 1424585854 toggled checkpoint 2
+2025-05-09 23:08:50 - handlers.route - INFO - User 1424585854 toggled checkpoint 3
+2025-05-09 23:08:58 - handlers.route - INFO - User 1424585854 finished route. Fuel: 2, Odometer: 5. Unfinished: 0
+2025-05-09 23:09:04 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 23:10:01 - __main__ - INFO - Stopping bot
+2025-05-09 23:10:04 - __main__ - INFO - Bot stopped successfully
+2025-05-09 23:10:04 - __main__ - INFO - Received shutdown signal
+2025-05-09 23:10:04 - __main__ - INFO - Stopping bot
+2025-05-09 23:10:04 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
