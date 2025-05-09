@@ -1,0 +1,51 @@
+2025-05-09 20:31:03 - __main__ - INFO - Initializing bot application
+2025-05-09 20:31:03 - __main__ - DEBUG - Setting up conversation handlers
+2025-05-09 20:31:03 - __main__ - DEBUG - Handlers setup completed
+2025-05-09 20:31:03 - __main__ - INFO - Bot initialized successfully
+2025-05-09 20:31:03 - __main__ - INFO - Starting bot
+2025-05-09 20:31:04 - __main__ - INFO - Bot started successfully
+2025-05-09 20:32:00 - handlers.base - INFO - User 1424585854 started interaction
+2025-05-09 20:32:02 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 20:32:02 - handlers.route - DEBUG - Route data for user 1424585854: {'vehicle_info': '🚗 Автомобиль: А123БВ777\n🟢 Статус: Исправен\n⛽ Топливо: ~45 литров\n📊 Одометр: 125 643 км\n❗ Примечания: Правый поворотник мигает быстрее\n\n📍 Точки маршрута:\n1. Склад №1 (ул. Ленина, 10) - загрузка\n2. Магазин "Продукты" (ул. Мира, 5) - выгрузка\n3. ТЦ "Мега" (ш. Московское, 15) - выгрузка', 'checkpoints': [{'id': 1, 'name': 'Склад №1', 'address': 'ул. Ленина, 10', 'type': 'загрузка', 'completed': False}, {'id': 2, 'name': 'Магазин "Продукты"', 'address': 'ул. Мира, 5', 'type': 'выгрузка', 'completed': False}, {'id': 3, 'name': 'ТЦ "Мега"', 'address': 'ш. Московское, 15', 'type': 'выгрузка', 'completed': False}], 'current_checkpoint': None}
+2025-05-09 20:32:05 - handlers.route - INFO - User 1424585854 confirmed route
+2025-05-09 20:32:10 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 20:32:12 - handlers.route - INFO - User 1424585854 toggled checkpoint 2
+2025-05-09 20:32:23 - handlers.route - INFO - User 1424585854 toggled checkpoint 3
+2025-05-09 20:32:23 - handlers.route - INFO - User 1424585854 toggled checkpoint 2
+2025-05-09 20:32:24 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 20:32:46 - handlers.route - INFO - User 1424585854 toggled checkpoint 3
+2025-05-09 20:32:46 - handlers.route - INFO - User 1424585854 toggled checkpoint 2
+2025-05-09 20:32:46 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 20:39:40 - __main__ - INFO - Stopping bot
+2025-05-09 20:39:41 - __main__ - INFO - Bot stopped successfully
+2025-05-09 20:39:41 - __main__ - INFO - Received shutdown signal
+2025-05-09 20:39:41 - __main__ - INFO - Stopping bot
+2025-05-09 20:39:41 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
+2025-05-09 20:39:55 - __main__ - INFO - Initializing bot application
+2025-05-09 20:39:55 - __main__ - DEBUG - Setting up conversation handlers
+2025-05-09 20:39:55 - __main__ - DEBUG - Handlers setup completed
+2025-05-09 20:39:55 - __main__ - INFO - Bot initialized successfully
+2025-05-09 20:39:55 - __main__ - INFO - Starting bot
+2025-05-09 20:39:56 - __main__ - INFO - Bot started successfully
+2025-05-09 20:40:07 - handlers.base - INFO - User 1424585854 started interaction
+2025-05-09 20:40:15 - handlers.route - INFO - User 1424585854 starting new route
+2025-05-09 20:40:15 - handlers.route - DEBUG - Route data for user 1424585854: {'vehicle_info': '🚗 Автомобиль: А123БВ777\n🟢 Статус: Исправен\n⛽ Топливо: ~45 литров\n📊 Одометр: 125 643 км\n❗ Примечания: Правый поворотник мигает быстрее\n\n📍 Точки маршрута:\n1. Склад №1 (ул. Ленина, 10) - загрузка\n2. Магазин "Продукты" (ул. Мира, 5) - выгрузка\n3. ТЦ "Мега" (ш. Московское, 15) - выгрузка', 'checkpoints': [{'id': 1, 'name': 'Склад №1', 'address': 'ул. Ленина, 10', 'type': 'загрузка', 'completed': False}, {'id': 2, 'name': 'Магазин "Продукты"', 'address': 'ул. Мира, 5', 'type': 'выгрузка', 'completed': False}, {'id': 3, 'name': 'ТЦ "Мега"', 'address': 'ш. Московское, 15', 'type': 'выгрузка', 'completed': False}], 'current_checkpoint': None}
+2025-05-09 20:40:30 - handlers.base - INFO - User 1513141587 started interaction
+2025-05-09 20:40:36 - handlers.route - INFO - User 1424585854 confirmed route
+2025-05-09 20:40:37 - handlers.route - INFO - User 1513141587 starting new route
+2025-05-09 20:40:37 - handlers.route - DEBUG - Route data for user 1513141587: {'vehicle_info': '🚗 Автомобиль: А123БВ777\n🟢 Статус: Исправен\n⛽ Топливо: ~45 литров\n📊 Одометр: 125 643 км\n❗ Примечания: Правый поворотник мигает быстрее\n\n📍 Точки маршрута:\n1. Склад №1 (ул. Ленина, 10) - загрузка\n2. Магазин "Продукты" (ул. Мира, 5) - выгрузка\n3. ТЦ "Мега" (ш. Московское, 15) - выгрузка', 'checkpoints': [{'id': 1, 'name': 'Склад №1', 'address': 'ул. Ленина, 10', 'type': 'загрузка', 'completed': False}, {'id': 2, 'name': 'Магазин "Продукты"', 'address': 'ул. Мира, 5', 'type': 'выгрузка', 'completed': False}, {'id': 3, 'name': 'ТЦ "Мега"', 'address': 'ш. Московское, 15', 'type': 'выгрузка', 'completed': False}], 'current_checkpoint': None}
+2025-05-09 20:40:43 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 20:40:50 - handlers.route - INFO - User 1513141587 reported route issues
+2025-05-09 20:41:07 - handlers.base - INFO - User 1513141587 started interaction
+2025-05-09 20:41:09 - handlers.route - INFO - User 1424585854 toggled checkpoint 1
+2025-05-09 20:41:13 - handlers.route - INFO - User 1513141587 starting new route
+2025-05-09 20:41:13 - handlers.route - DEBUG - Route data for user 1513141587: {'vehicle_info': '🚗 Автомобиль: А123БВ777\n🟢 Статус: Исправен\n⛽ Топливо: ~45 литров\n📊 Одометр: 125 643 км\n❗ Примечания: Правый поворотник мигает быстрее\n\n📍 Точки маршрута:\n1. Склад №1 (ул. Ленина, 10) - загрузка\n2. Магазин "Продукты" (ул. Мира, 5) - выгрузка\n3. ТЦ "Мега" (ш. Московское, 15) - выгрузка', 'checkpoints': [{'id': 1, 'name': 'Склад №1', 'address': 'ул. Ленина, 10', 'type': 'загрузка', 'completed': False}, {'id': 2, 'name': 'Магазин "Продукты"', 'address': 'ул. Мира, 5', 'type': 'выгрузка', 'completed': False}, {'id': 3, 'name': 'ТЦ "Мега"', 'address': 'ш. Московское, 15', 'type': 'выгрузка', 'completed': False}], 'current_checkpoint': None}
+2025-05-09 20:41:15 - handlers.route - INFO - User 1513141587 confirmed route
+2025-05-09 20:41:22 - handlers.route - INFO - User 1513141587 toggled checkpoint 2
+2025-05-09 20:41:23 - handlers.route - INFO - User 1513141587 toggled checkpoint 1
+2025-05-09 20:41:25 - handlers.route - INFO - User 1513141587 toggled checkpoint 3
+2025-05-09 20:41:26 - __main__ - INFO - Stopping bot
+2025-05-09 20:41:27 - __main__ - INFO - Bot stopped successfully
+2025-05-09 20:41:27 - __main__ - INFO - Received shutdown signal
+2025-05-09 20:41:27 - __main__ - INFO - Stopping bot
+2025-05-09 20:41:27 - __main__ - ERROR - Error while stopping bot: This Updater is not running!
