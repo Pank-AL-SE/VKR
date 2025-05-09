@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine  # используем облегченный alpine-образ
+    container_name: my_postgres
+    environment:
+      POSTGRES_USER: myuser     # задаем имя пользователя
+      POSTGRES_PASSWORD: mypassword  # задаем пароль
+      POSTGRES_DB: mydatabase   # создаем БД при старте
+    ports:
+      - "5432:5432"             # пробрасываем порт
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # том для данных
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # SQL-скрипт для инициализации
+    restart: unless-stopped     # автоматический перезапуск
+
+volumes:
+  postgres_data:                # объявляем том для хранения данных
