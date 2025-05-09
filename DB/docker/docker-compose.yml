@@ -2,18 +2,36 @@ version: '3.8'
 
 services:
   postgres:
-    image: postgres:15-alpine  # используем облегченный alpine-образ
-    container_name: my_postgres
+    image: postgres:latest
+    container_name: postgres_container
     environment:
-      POSTGRES_USER: myuser     # задаем имя пользователя
-      POSTGRES_PASSWORD: mypassword  # задаем пароль
-      POSTGRES_DB: mydatabase   # создаем БД при старте
-    ports:
-      - "5432:5432"             # пробрасываем порт
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: test_db
     volumes:
-      - postgres_data:/var/lib/postgresql/data  # том для данных
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # SQL-скрипт для инициализации
-    restart: unless-stopped     # автоматический перезапуск
+      - postgres_data:/var/lib/postgresql/data
+      - ./../injections/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres_network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    networks:
+      - postgres_network
+    depends_on:
+      - postgres
 
 volumes:
-  postgres_data:                # объявляем том для хранения данных
+  postgres_data:
+
+networks:
+  postgres_network:
+    driver: bridge
