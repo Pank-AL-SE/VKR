@@ -21,15 +21,20 @@ class RouteBot:
     def _setup_handlers(self):
         logger.debug("Setting up conversation handlers")
         conv_handler = ConversationHandler(
-            entry_points=[CommandHandler('start', base.start)],
+            entry_points=[
+                MessageHandler(filters.Regex('^Начать маршрут$'), route.start_route),
+                CommandHandler('start', base.start)
+            ],
             states={
-                0: [MessageHandler(filters.Regex('^Начать маршрут$'), route.start_route)],
+                0: [],
                 1: [MessageHandler(filters.Regex('^(✅ Всё верно|❌ Есть ошибки)$'), route.process_confirmation)],
                 2: [
                     CallbackQueryHandler(route.handle_checkpoint, pattern='^checkpoint_'),
+                    CallbackQueryHandler(route.finish_route, pattern='^finish$'),
                     MessageHandler(filters.Regex('^Завершить маршрут$'), route.finish_route)
                 ],
-                3: [MessageHandler(filters.TEXT & ~filters.COMMAND, route.save_final_data)]
+                3: [MessageHandler(filters.TEXT & ~filters.COMMAND, route.save_final_data)],
+                4: [MessageHandler(filters.TEXT & ~filters.COMMAND, route.handle_unfinished_reason)]
             },
             fallbacks=[CommandHandler('cancel', base.cancel)],
         )

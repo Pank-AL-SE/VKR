@@ -10,10 +10,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     logger.info(f"User {user.id} started interaction")
     try:
         await update.message.reply_text(
-            "Добро пожаловать в систему путевых листов!",
+            "Добро пожаловать в систему путевых листов! Нажмите 'Начать маршрут' для работы.",
             reply_markup=get_main_menu()
         )
-        return 0
+        return ConversationHandler.END  # Возвращаем END, так как сценарий начинается по кнопке
     except Exception as e:
         logger.error(f"Start command error for user {user.id}: {e}")
         await update.message.reply_text("Произошла ошибка. Пожалуйста, попробуйте позже.")
